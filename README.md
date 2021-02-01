@@ -171,7 +171,7 @@ generate_visual_reprtn(RASTERNAME)
 ```
 
 
-![png](output_11_0.png)
+![png](assessment3/output_11_0.png)
 
 
 For finding the coordinates along with the indices of highest value, the band is sorted in descending order. 
