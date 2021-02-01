@@ -196,7 +196,7 @@ print('Highest value is present at: '+ str(highest_value_coord))
     
 
 
-![png](output_13_1.png)
+![png](assessment3/output_13_1.png)
 
 
 #### Task 2:
@@ -225,7 +225,7 @@ generate_visual_reprtn(RASTER_REPROJECTED)
 ```
 
 
-![png](output_17_0.png)
+![png](assessment3/output_17_0.png)
 
 
 The raster is down sampled 2x times as per the task. This improves performance by reducing the computational time. It can also be noted that cell size has also doubled relatively. The height and width have also been reduced by the same ratio.
@@ -251,7 +251,7 @@ generate_visual_reprtn(SCALED_RASTER_1_2)
 ```
 
 
-![png](output_21_0.png)
+![png](assessment3/output_21_0.png)
 
 
 The given below resampling (down sampled 1/4) is conducted for the reprojected raster. It is noted that cell size is increased by 4 times of the original reprojected raster. Similarly the width and height reduced with the same ratio. 
@@ -277,7 +277,7 @@ generate_visual_reprtn(SCALED_RASTER_1_4)
 ```
 
 
-![png](output_25_0.png)
+![png](assessment3/output_25_0.png)
 
 
 ### The methods used for calculations of slope:
@@ -308,7 +308,7 @@ generate_slope_comparison(out_2FD,FINITE_2FD)
 ```
 
 
-![png](output_32_0.png)
+![png](assessment3/output_32_0.png)
 
 
 In Maximum max method gives the slope values similar to 2FD but the frequency is more uniform compared to 2FD. Here the max slpope values reach 0.8. It can also be noted that the edges in the gradient magnitude have 'black color' due to skipping of nodata values.
@@ -319,7 +319,7 @@ generate_slope_comparison(out_maxmax,MAXIMUM_MAX)
 ```
 
 
-![png](output_34_0.png)
+![png](assessment3/output_34_0.png)
 
 
 ##### Repeat the above experiment for resampled raster with resampling of 1/2. 
@@ -339,7 +339,7 @@ generate_slope_comparison(out_2FD,FINITE_2FD)
 ```
 
 
-![png](output_38_0.png)
+![png](assessment3/output_38_0.png)
 
 
 Similarily, the result for maximum max also has higher frequency compared to the previous resampling.
@@ -350,7 +350,7 @@ generate_slope_comparison(out_maxmax,MAXIMUM_MAX)
 ```
 
 
-![png](output_40_0.png)
+![png](assessment3/output_40_0.png)
 
 
 ## Conclusion:
